@@ -1,0 +1,7 @@
+interface:
+  display_name: "任务文件管理"
+  short_description: "管理已登记的任务过程文件，保护成果并在七天恢复期后清理"
+  default_prompt: "使用 $manage-task-files 管理这个任务新生成的过程文件，保留成果并报告待回收内容。"
+
+policy:
+  allow_implicit_invocation: true
